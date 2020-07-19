@@ -1,0 +1,10 @@
+n=int(input())
+mi=int(0)
+count=1
+x=n%10
+n=int(n/10)
+if(x>=5):
+    mi+=x-5+1
+else:
+    mi=x
+print(mi+n)
